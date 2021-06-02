@@ -29,16 +29,18 @@ class ViewController: UIViewController {
 
 extension ViewController : UITableViewDelegate, UITableViewDataSource {
     
-    
+    // MARK : DidSelectRow
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(" selectec items : \(names[indexPath.row])")
         tableView.cellForRow(at: indexPath)?.backgroundColor = UIColor.blue
     }
     
+    // MARK : DidDe-SelectRow
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         tableView.cellForRow(at: indexPath)?.backgroundColor = nil
     }
     
+    // MARK : CellForRowAt
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCellFromXib", for: indexPath)
         
@@ -47,6 +49,7 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
+    // MARK : NumberOfRows
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         names.count
     }
