@@ -14,7 +14,6 @@
 		C53FB499266656300012E414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53FB498266656300012E414 /* Assets.xcassets */; };
 		C53FB49C266656300012E414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53FB49A266656300012E414 /* LaunchScreen.storyboard */; };
 		C53FB4A626665CF10012E414 /* myCellClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53FB4A426665CF10012E414 /* myCellClassTableViewCell.swift */; };
-		C53FB4A726665CF10012E414 /* myCellClassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C53FB4A526665CF10012E414 /* myCellClassTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		C53FB49B266656300012E414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C53FB49D266656300012E414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C53FB4A426665CF10012E414 /* myCellClassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCellClassTableViewCell.swift; sourceTree = "<group>"; };
-		C53FB4A526665CF10012E414 /* myCellClassTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myCellClassTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 				C53FB49A266656300012E414 /* LaunchScreen.storyboard */,
 				C53FB49D266656300012E414 /* Info.plist */,
 				C53FB4A426665CF10012E414 /* myCellClassTableViewCell.swift */,
-				C53FB4A526665CF10012E414 /* myCellClassTableViewCell.xib */,
 			);
 			path = practiseTableView;
 			sourceTree = "<group>";
@@ -130,7 +127,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C53FB4A726665CF10012E414 /* myCellClassTableViewCell.xib in Resources */,
 				C53FB49C266656300012E414 /* LaunchScreen.storyboard in Resources */,
 				C53FB499266656300012E414 /* Assets.xcassets in Resources */,
 				C53FB4972666562E0012E414 /* Main.storyboard in Resources */,

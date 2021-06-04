@@ -42,9 +42,11 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
     
     // MARK : CellForRowAt
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myCellFromXib", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! myCellClassTableViewCell
         
-        cell.textLabel?.text = String(names[indexPath.row])
+        cell.setLabel(labelVal: String(names[indexPath.row]))
+        //cell.textLabel?.text = String(names[indexPath.row])
+        //cell.imageView?.image = UIImage(named: "birdie")
         
         return cell
     }
